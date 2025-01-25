@@ -1,0 +1,19 @@
+.side-container {
+    min-width: 200px;
+   
+  }
+
+  .content-container {
+    padding: 10px;
+   
+  }
+
+  .clickable-heading {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .clickable-heading:hover {
+    text-decoration: underline;
+  }

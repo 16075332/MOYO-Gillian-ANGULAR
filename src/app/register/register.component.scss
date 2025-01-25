@@ -1,0 +1,86 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  font-family: 'Arial', sans-serif;
+}
+
+.login-card {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.bubble-heading {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6a11cb;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.example-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.frm-control {
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button[type="button"] {
+  margin-top: 20px;
+  background-color: #6a11cb;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #2575fc;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  color: #444;
+}
+
+p a {
+  color: #6a11cb;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+#LoginErr, #emailErr, #passErr {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  color: #6a11cb;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}

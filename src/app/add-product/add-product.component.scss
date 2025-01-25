@@ -1,0 +1,66 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e0f7fa, #80deea);
+  font-family: 'Arial', sans-serif;
+}
+
+.add-product-card {
+  width: 400px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background: #fff;
+}
+
+mat-card-content h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.example-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.frm-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+button[type="button"] {
+  margin-top: 20px;
+  background-color: #29b6f6;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #0288d1;
+}
+
+#menu-icon {
+  visibility: hidden;
+}
+
+/* CSS */
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-select {
+  width: calc(50% - 12px); /* Adjust the width of the select box */
+  margin-right: 24px; /* Adjust the space between the select boxes */
+}
+
+.frm-control {
+  display: inline-flex; /* Display form fields inline */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 15px; /* Add some space between form fields */
+}

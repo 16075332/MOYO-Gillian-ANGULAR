@@ -1,0 +1,61 @@
+.sidenav-container {
+    height: 100vh;
+    background-color: #e0f7fa;
+  }
+  
+  .side-container {
+    width: 250px;
+    background-color: #4fc3f7;
+    color: white;
+  }
+  
+  .mat-nav-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .mat-nav-list a:hover {
+    background-color: #29b6f6;
+  }
+  
+  .content-container {
+    padding: 20px;
+    background-color: #e0f7fa;
+  }
+  
+  .content-wrapper {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .table-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .filter-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 100px;
+    height: auto;
+  }
+  
+  .mat-header-cell, .mat-cell {
+    padding: 10px;
+  }
+  
+  .mat-header-row {
+    background-color: #29b6f6;
+    color: white;
+  }
+  
+  .mat-paginator {
+    background-color: #e0f7fa;
+  }
+  

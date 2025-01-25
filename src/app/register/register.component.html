@@ -1,0 +1,23 @@
+<div class="center-container">
+    <mat-card class="login-card">
+        <mat-card-content>
+            <h1 class="bubble-heading">Register new account</h1>
+        </mat-card-content>
+        <form>
+            <mat-form-field class="frm-control">
+                <mat-label>Email</mat-label>
+                <input type="email" matInput id="email" formControlName="email" name="email" placeholder="mail@example.com" required>
+            </mat-form-field>
+            <mat-error id="emailErr">Please enter email</mat-error>
+            <br>
+            <mat-form-field class="frm-control">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput id="password" name="password" placeholder="password" required>
+            </mat-form-field>
+            <mat-error id="passErr">Please enter password!</mat-error>
+            <br>
+            <button mat-flat-button color="primary" (click)="registerUser()" type="button" class="frm-control">Register</button>
+            <p>Go to <a routerLink="/login">Log in</a></p>
+        </form>
+    </mat-card>
+</div>
